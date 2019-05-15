@@ -5,19 +5,17 @@
 #ifndef NODESTRUCT_NODE_H
 #define NODESTRUCT_NODE_H
 
-#include "Location.h"
-
 namespace UTEC {
-
+    template <typename T>
     struct Node {
         //int value;
-        Location data;
+        T data;
         Node *next;
         Node *next_right;
         Node *next_left;
 
         //explicit Node(int _value);
-        explicit Node(Location _value);
+        explicit Node(T _value);
     };
 }
 

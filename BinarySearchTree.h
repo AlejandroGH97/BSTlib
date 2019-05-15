@@ -4,18 +4,16 @@
 
 #ifndef LINKEDLISTVSBINARYTREE_BINARYTREE_H
 #define LINKEDLISTVSBINARYTREE_BINARYTREE_H
-#include "Location.h"
 #include "Node.h"
 
 namespace UTEC {
-
     class BinarySearchTree {
         Node* root;
 
     public:
         BinarySearchTree();
         ~BinarySearchTree();
-        void insert(Node* current, Location data);
+        void insert(Node* current, T data);
         void clear(Node* _root);
         bool is_empty();
         Node* get_root();
