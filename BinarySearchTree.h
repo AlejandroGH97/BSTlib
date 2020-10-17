@@ -1,7 +1,3 @@
-//
-// Created by ruben on 4/5/19.
-//
-
 #ifndef LINKEDLISTVSBINARYTREE_BINARYTREE_H
 #define LINKEDLISTVSBINARYTREE_BINARYTREE_H
 #include "Node.h"
